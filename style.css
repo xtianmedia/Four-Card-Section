@@ -1,0 +1,196 @@
+:root{
+    --red: hsl(0, 78%, 62%);
+    --cyan: cyan;
+    --orange: orange;
+    --blue: blue;
+
+    --very-dark-blue: navy;
+    --greyish-blue: hsl(229, 6%, 66%);
+    --very-light-grey: hsl(0, 0%, 98%);
+}
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-color: var(--very-light-grey);
+}
+
+.text {
+    text-align: center;
+    margin: 20px auto;
+}
+.text .light {
+    color: var(--greyish-blue);
+    font-size: 1.7rem;
+    padding: 5px;
+}
+
+.bold {
+    color: var(--very-dark-blue);
+    font-size: 2rem;
+}
+
+.para {
+    margin: 15px auto;
+    width: 40%;
+    text-align: center;
+    color: var(--greyish-blue);
+    font-size: 15px;
+}
+
+.cards {
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.one {
+    height: 150px;
+    width: 300px;
+    background-color: #fff;
+    box-shadow: 0px 2px 10px 0px var(--greyish-blue);
+    margin: 10px;
+    border-radius: 3px;
+    padding: 30px 40px;
+}
+
+.one h4{
+    color: var(--very-dark-blue);
+}
+
+.one p{
+    color: var(--greyish-blue);
+    font-size: 15px;
+    padding-top: 13px;
+}
+
+.one img {
+    padding-top: 15px;
+    float: right;
+    height: 50px;
+}
+
+.two {
+    height: 150px;
+    width: 300px;
+    background-color: #fff;
+    box-shadow: 0px 2px 10px 0px var(--greyish-blue);
+    margin: 10px;
+    border-radius: 3px;
+    padding: 30px 40px;
+}
+
+.two h4{
+    color: var(--very-dark-blue);
+}
+
+.two p{
+    color: var(--greyish-blue);
+    font-size: 15px;
+    padding-top: 13px;
+}
+
+.two img {
+    padding-top: 15px;
+    float: right;
+    height: 50px;
+}
+
+.three {
+    height: 150px;
+    width: 300px;
+    background-color: #fff;
+    box-shadow: 0px 2px 10px 0px var(--greyish-blue);
+    margin: 10px;
+    border-radius: 3px;
+    padding: 30px 40px;
+}
+
+.three h4{
+    color: var(--very-dark-blue);
+}
+
+.three p{
+    color: var(--greyish-blue);
+    font-size: 15px;
+    padding-top: 13px;
+}
+
+.three img {
+    padding-top: 15px;
+    float: right;
+    height: 50px;
+}
+
+.four {
+    height: 150px;
+    width: 300px;
+    background-color: #fff;
+    box-shadow: 0px 2px 10px 0px var(--greyish-blue);
+    margin: 10px;
+    border-radius: 3px;
+    padding: 30px 40px;
+}
+
+.four h4{
+    color: var(--very-dark-blue);
+}
+
+.four p{
+    color: var(--greyish-blue);
+    font-size: 15px;
+    padding-top: 13px;
+}
+
+.four img {
+    padding-top: 15px;
+    float: right;
+    height: 50px;
+}
+
+.one{
+    border-top: 3px solid var(--cyan);
+}
+
+.two{
+    border-top: 3px solid var(--red);
+}
+
+.three{
+    border-top: 3px solid var(--orange);
+}
+
+.four{
+    border-top: 3px solid var(--blue);
+}
+
+footer {
+   text-align: center;
+}
+
+footer a {
+    color: var(--red);
+}
+
+
+@media (max-width: 1042px) {
+    .cards {
+        flex-direction: column;
+    }
+
+    .para {
+        width: 70%;
+    }
+
+    footer {
+        text-align: center;
+        width: 100%;
+    }
+}
